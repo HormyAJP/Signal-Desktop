@@ -3,12 +3,12 @@
 
 name: Release Notes
 on:
-  issue_comment:
-    types: [created]
-  issues:
-    types: [opened]
-  pull_request:
-    types: [opened, labeled, unlabeled, closed]
+  # issue_comment:
+  #   types: [created]
+  # issues:
+  #   types: [opened]
+  # pull_request:
+  #   types: [opened, labeled, unlabeled, closed]
   workflow_dispatch:
 
 jobs:
