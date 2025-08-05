@@ -5,6 +5,7 @@ name: Notes
 on:
   pull_request:
     types: [closed]
+  workflow_dispatch:
 
 jobs:
   backport:
